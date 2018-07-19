@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+
+    <Button
+        android:layout_marginTop="20dp"
+
+        android:id="@+id/oldstyle"
+        android:text="传统方式创建快捷方式"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+
+        android:id="@+id/newstyle"
+        android:text="Android7.1创建快捷方式"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/morenewstyle"
+        android:text="Android8.0创建快捷方式"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/target"
+        android:text="目标Activity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</LinearLayout>

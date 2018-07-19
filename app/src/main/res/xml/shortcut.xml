@@ -1,0 +1,17 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="setting"
+        android:enabled="true"
+        android:icon="@drawable/yuanbao"
+        android:shortcutShortLabel="@string/set_short_name"
+        android:shortcutLongLabel="@string/set_long_name"
+        android:shortcutDisabledMessage="@string/set_disable_msg">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.share.shortcut"
+            android:targetClass="com.share.shortcut.TargetActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+
+    </shortcut>
+</shortcuts>

@@ -1,5 +1,5 @@
-### ShareShortcut 
-####分享Android应用构建快捷方式的使用细则
+##  ShareShortcut 
+####  分享Android应用构建快捷方式的使用细则
 
 如何高效构建Android应用的快捷方式来提高用户留存？
 
